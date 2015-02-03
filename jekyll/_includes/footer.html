@@ -1,0 +1,44 @@
+<footer>
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="footer-heading">{{ site.title }}</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <ul>
+            <li>{{ site.title }}</li>
+            <li>{{ site.address_street }}</li>
+            <li>{{ site.address_place }}</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul>
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li>Tel {{ site.phone }}</li>
+            <li>Fax {{ site.fax }}</li>
+          </ul>
+        </div>
+        <div class="col-sm-5">
+          <p class="text">
+            {{ site.description }}<br>
+            {{ site.vat_nr }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          © Sanhei AG 2015, created by Lukas Elmer, 2015
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,22 @@
+# Site settings
+title: Sanhei AG
+address_street: 'Georg-Kempf-Strasse 26'
+address_place: '8046 Zürich'
+phone: '044 341 05 10'
+fax: '044 341 91 56'
+vat_nr: 'CHE-105.833.781 MWST (Alt: 232 541)'
+email: info@sanhei.ch
+description_head: > # this means to ignore newlines until "baseurl:"
+  Sanhei AG: Reparaturen, Umbauten, Solar-Energie, Wärmepumpen,
+  Ölheizungen, Öl, Oel, Gasheizungen, Gas, Holzheizungen, Holz,
+  Pellet, Pelletheizung, Heizungen
+description: > # this means to ignore newlines until "baseurl:"
+  Sanhei AG: Reparaturen, Umbauten, Solar-Energie, Wärmepumpen,
+  Ölheizungen, Gasheizungen, Holzheizungen, Pelletheizung
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'http://www.sahei.ch' # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+destination: '../public'
+timezone: 'Europe/Zurich'
