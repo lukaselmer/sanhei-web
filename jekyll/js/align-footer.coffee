@@ -10,9 +10,13 @@ setMainContentMinHeight = ->
     newMainContentMinHeight = $mainContent.height() + increaseHeightBy
     $mainContent.css('min-height', newMainContentMinHeight)
 
+  adjustFooterVisibility = ->
+    if $('footer').css('visibility') == 'hidden'
+      $('footer').css('visibility','visible').hide().fadeIn('slow')
+
   doSetMainContentMinHeight()
+  adjustFooterVisibility()
   setTimeout(doSetMainContentMinHeight, 100)
-  setTimeout(doSetMainContentMinHeight, 1000)
   setTimeout(doSetMainContentMinHeight, 2000)
 
 $ setMainContentMinHeight

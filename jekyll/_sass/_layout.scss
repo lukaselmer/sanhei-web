@@ -24,6 +24,7 @@
 }
 
 footer {
+  visibility: hidden;
   .site-footer, .copyright {
     font-size: 15px;
     color: $grey-color;
