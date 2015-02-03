@@ -13,9 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: $brand-color;
+  color: $color-blue;
   text-decoration: none;
+  transition: color 200ms ease;
   &:hover {
-    color: $color-blue;
+    color: $color-red;
+    transition: color 200ms ease;
   }
 }

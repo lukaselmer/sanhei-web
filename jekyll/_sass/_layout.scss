@@ -4,12 +4,10 @@
   background: $color-blue;
 
   &.navbar-inverse {
-    .navbar-nav > li > a, &.navbar > .container .navbar-brand,
-    > .container-fluid .navbar-brand {
+    .navbar-nav > li > a {
       color: #fff;
       transition: background 400ms ease;
       &:hover, &:active, &:focus {
-        //color: #ffeae4;
         background: $color-red;
         transition: background 400ms ease;
       }
