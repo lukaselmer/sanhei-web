@@ -1,14 +1,26 @@
 .navbar {
-  padding-top: 5px;
   border-top: 5px solid $color-red;
   border-bottom: none;
   background: $color-blue;
 
-  &.navbar-inverse .navbar-nav > li > a, &.navbar > .container .navbar-brand,
-  > .container-fluid .navbar-brand {
-    color: #fff;
-    &:hover, &:active {
-      color: #ffeae4;
+  &.navbar-inverse {
+    .navbar-nav > li > a, &.navbar > .container .navbar-brand,
+    > .container-fluid .navbar-brand {
+      color: #fff;
+      transition: background 400ms ease;
+      &:hover, &:active, &:focus {
+        //color: #ffeae4;
+        background: $color-red;
+        transition: background 400ms ease;
+      }
+    }
+    .navbar-toggle {
+      border-color: $color-red;
+      background: $color-red;
+      &:hover, &:focus {
+        border-color: #333;
+        background: #333;
+      }
     }
   }
 
