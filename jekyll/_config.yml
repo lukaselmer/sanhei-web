@@ -15,9 +15,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Sanhei AG: Reparaturen, Umbauten, Solar-Energie, Wärmepumpen,
   Ölheizungen, Gasheizungen, Holzheizungen, Pelletheizung
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: 'http://www.sahei.ch' # the base hostname & protocol for your site
+url: 'https://www.sahei.ch' # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
 destination: '../public'
 timezone: 'Europe/Zurich'
+plugins:
+  - 'jekyll-coffeescript'
