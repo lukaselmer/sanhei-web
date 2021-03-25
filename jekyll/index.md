@@ -9,4 +9,4 @@ Wir sind Ihr Spezialist in den Bereichen
 * Umbauten
 * Solar-Energie
 * Wärmepumpen
-* Öl-, Gas-, Holz-Heizungen
+* Öl-, Gas-, Holz-, Pellet-Heizungen
