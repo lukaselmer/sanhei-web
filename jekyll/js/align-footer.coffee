@@ -19,5 +19,11 @@ setMainContentMinHeight = ->
   setTimeout(doSetMainContentMinHeight, 100)
   setTimeout(doSetMainContentMinHeight, 2000)
 
+setFooterYear = ->
+  year = new Date().getFullYear()
+  $('.current-year').text("#{year} ")
+
+
 $ setMainContentMinHeight
+$ setFooterYear
 $(window).resize setMainContentMinHeight
